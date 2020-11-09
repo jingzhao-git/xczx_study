@@ -12,6 +12,10 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     height: 42px;
     background-color: pink;
@@ -28,4 +32,22 @@ li {
 .nav {
     float: left;
     margin-left: 60px;
+}
+
+.nav ul li {
+    float: left;
+    height: 42px;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
 }
