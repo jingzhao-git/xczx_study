@@ -60,11 +60,20 @@ a {
 }
 
 .search input {
-    width: 360px;
+    float: left;
+    width: 344px;
     font-size: 14px;
     line-height: 40px;
     color: #cbcbcc;
     border: 1px solid #00a4ff;
     border-right: 0;
     padding-left: 15px;
+}
+
+button {
+    float: left;
+    width: 52px;
+    height: 42px;
+    background-image: url("images/search_button.png");
+    border: none;
 }
