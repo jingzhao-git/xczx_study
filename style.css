@@ -92,4 +92,6 @@ a {
 .banner .w {
     height: 421px;
     background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position: top center;
 }
