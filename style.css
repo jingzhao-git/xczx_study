@@ -95,3 +95,17 @@ a {
     background-repeat: no-repeat;
     background-position: top center;
 }
+
+.banner .w .subnav {
+    width: 191px;
+    height: 421px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 14px;
+}
+
+.banner .w .subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
