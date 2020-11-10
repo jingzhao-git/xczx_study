@@ -70,7 +70,7 @@
         color: #cbcbcc;
         border: 1px solid #00a4ff;
         border-right: 0;
-        padding-left: 15px;
+        padding-left: 14px;
     }
     
     .search button {
@@ -121,4 +121,20 @@
     
     .banner .subnav ul li a:hover {
         color: #00a4ff;
+    }
+    
+    .course {
+        float: right;
+        width: 230px;
+        height: 300px;
+        background-color: cadetblue;
+        margin-top: 50px;
+    }
+    
+    .course h1 {
+        background-color: #fff;
+    }
+    
+    .course ul {
+        background-color: seagreen;
     }
