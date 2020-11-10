@@ -176,13 +176,6 @@ a {
     line-height: 60px;
 }
 
-.goods h4 {
-    float: left;
-    font-size: 16px;
-    color: #00a4ff;
-    margin-left: 35px;
-}
-
 .goods ul {
     float: left;
     margin-left: 30px;
@@ -196,7 +189,11 @@ a {
     color: #050505;
     font-size: 16px;
     padding: 0 30px;
-    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+
+.goods ul li a:hover {
+    color: #00a4ff;
 }
 
 .goods .modify {
