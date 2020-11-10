@@ -206,5 +206,36 @@ a {
     margin-right: 35px;
 }
 
+.boxes {
+    margin-top: 37px;
+}
 
+.boxes_head {
+    height: 56px;
+}
+
+.boxes_head h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.boxes_head a {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-top: 10px;
+}
+
+.boxes_body ul {
+    width: 1225px;
+}
+
+.boxes_body ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: palegreen;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
