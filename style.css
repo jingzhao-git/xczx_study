@@ -207,17 +207,17 @@ a {
     margin-top: 37px;
 }
 
-.boxes1_head {
+Unified box head format.boxes_head {
     height: 56px;
 }
 
-.boxes1_head h3 {
+.boxes_head h3 {
     float: left;
     font-size: 20px;
     color: #494949;
 }
 
-.boxes1_head a {
+.boxes_head a {
     float: right;
     font-size: 12px;
     color: #a5a5a5;
