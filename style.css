@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: f3f5f7;
+}
+
 .w {
     width: 1200px;
     margin: auto;
@@ -18,7 +22,6 @@ a {
 
 .header {
     height: 42px;
-    background-color: pink;
     margin: 30px auto;
 }
 
@@ -26,7 +29,6 @@ a {
     float: left;
     width: 198px;
     height: 42px;
-    background-color: purple;
 }
 
 .nav {
@@ -56,7 +58,7 @@ a {
     float: left;
     width: 412px;
     height: 42px;
-    background-color: yellowgreen;
+    margin-left: 70px;
 }
 
 .search input {
@@ -70,10 +72,14 @@ a {
     padding-left: 15px;
 }
 
-button {
+.search button {
     float: left;
     width: 52px;
     height: 42px;
     background-image: url("images/search_button.png");
     border: none;
+}
+
+.user {
+    float: right;
 }
