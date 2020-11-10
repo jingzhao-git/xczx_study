@@ -206,32 +206,32 @@ a {
     margin-right: 35px;
 }
 
-.boxes {
+.boxes1 {
     margin-top: 37px;
 }
 
-.boxes_head {
+.boxes1_head {
     height: 56px;
 }
 
-.boxes_head h3 {
+.boxes1_head h3 {
     float: left;
     font-size: 20px;
     color: #494949;
 }
 
-.boxes_head a {
+.boxes1_head a {
     float: right;
     font-size: 12px;
     color: #a5a5a5;
     margin-top: 10px;
 }
 
-.boxes_body ul {
+.boxes1_body ul {
     width: 1225px;
 }
 
-.boxes_body ul li {
+.boxes1_body ul li {
     float: left;
     width: 228px;
     height: 270px;
@@ -240,22 +240,22 @@ a {
     margin-bottom: 15px;
 }
 
-.boxes_body ul li img {
+.boxes1_body ul li img {
     width: 100%;
 }
 
-.boxes_body ul li h3 {
+.boxes1_body ul li h3 {
     margin: 20px 20px 16px 24px;
     font-size: 14px;
     color: #050505;
 }
 
-.boxes_body ul li div {
+.boxes1_body ul li div {
     font-size: 12px;
     color: #b4b4b4;
     margin-left: 24px;
 }
 
-.boxes_body ul li div span {
+.boxes1_body ul li div span {
     color: #ff7c2d;
 }
