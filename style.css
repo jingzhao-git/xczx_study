@@ -180,16 +180,31 @@ a {
     float: left;
     font-size: 16px;
     color: #00a4ff;
+    margin-left: 35px;
 }
 
 .goods ul {
     float: left;
+    margin-left: 30px;
 }
 
 .goods ul li {
     float: left;
 }
 
+.goods ul li a {
+    color: #050505;
+    font-size: 16px;
+    padding: 0 30px;
+    border-left: 1px solid #bfbfbf;
+}
+
 .goods .modify {
     float: right;
+    font-size: 14px;
+    color: #00a4ff;
+    margin-right: 35px;
+}
+
+
 }
