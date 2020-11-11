@@ -333,6 +333,57 @@
     }
     
     .footer {
+        margin-top: 40px;
         height: 416px;
-        background-color: pink;
+        background-color: #fff;
+    }
+    
+    .copyright {
+        float: left;
+        padding-top: 34px;
+        width: 445px;
+    }
+    
+    .copyright p {
+        font-size: 12px;
+        color: #666666;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .copyright a {
+        display: block;
+        width: 118px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 16px;
+        text-align: center;
+        color: #00a4ff;
+        border: 1px solid #00a4ff;
+    }
+    
+    .link {
+        float: right;
+        margin-right: 30px;
+        padding-top: 34px;
+    }
+    
+    .link dl dt {
+        color: #333333;
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    
+    .link dl dd {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    
+    .link dl {
+        float: left;
+        margin-left: 120px;
+    }
+    
+    .link dd a:hover {
+        color: #00a4ff;
     }
