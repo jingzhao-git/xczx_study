@@ -259,11 +259,11 @@
         color: #00a4ff;
     }
     
-    .boxes1_body ul {
+    .boxes_body ul {
         width: 1225px;
     }
     
-    .boxes1_body ul li {
+    .boxes_body ul li {
         float: left;
         width: 228px;
         height: 270px;
@@ -272,23 +272,23 @@
         margin-bottom: 15px;
     }
     
-    .boxes1_body ul li img {
+    .boxes_body ul li img {
         width: 100%;
     }
     
-    .boxes1_body ul li h3 {
+    .boxes_body ul li h3 {
         margin: 20px 20px 16px 24px;
         font-size: 14px;
         color: #050505;
     }
     
-    .boxes1_body ul li div {
+    .boxes_body ul li div {
         font-size: 12px;
         color: #b4b4b4;
         margin-left: 24px;
     }
     
-    .boxes1_body ul li div span {
+    .boxes_body ul li div span {
         color: #ff7c2d;
     }
     
@@ -297,11 +297,28 @@
     }
     
     .boxes2_left {
+        float: left;
         width: 228px;
         height: 390px;
         background-image: url(images/picleft.png);
+        margin-right: 15px;
     }
     
-    .boxes2_left img {
-        width: 100%;
+    .boxes2_right {
+        float: left;
+        width: 957px;
+    }
+    
+    .boxes2_banner {
+        height: 100px;
+        background-image: url(images/picright_banner.png);
+    }
+    
+    .boxes2_right ul li {
+        float: left;
+        width: 228px;
+        height: 270px;
+        background-color: #fff;
+        margin-right: 15px;
+        margin-top: 20px;
     }
