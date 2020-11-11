@@ -265,11 +265,18 @@
     
     .boxes_body ul li {
         float: left;
+        position: relative;
         width: 228px;
         height: 270px;
         background-color: #fff;
         margin-right: 15px;
         margin-bottom: 15px;
+    }
+    
+    .boxes_body ul li em {
+        position: absolute;
+        top: 4px;
+        right: -4px;
     }
     
     .boxes_body ul li img {
