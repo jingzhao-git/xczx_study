@@ -3,6 +3,20 @@
         padding: 0;
     }
     
+    .clearfix:before,
+    .clearfix:after {
+        content: "";
+        display: table;
+    }
+    
+    .clearfix:after {
+        clear: both;
+    }
+    
+    .clearfix {
+        *zoom: 1;
+    }
+    
     body {
         background-color: #f3f5f7;
     }
@@ -225,7 +239,7 @@
     }
     
     .boxes_head ul {
-        margin-top: 10px;
+        margin-top: 5px;
         margin-left: 350px;
         float: left;
     }
@@ -276,4 +290,18 @@
     
     .boxes1_body ul li div span {
         color: #ff7c2d;
+    }
+    
+    .boxes2 {
+        margin-top: 30px;
+    }
+    
+    .boxes2_left {
+        width: 228px;
+        height: 390px;
+        background-image: url(images/picleft.png);
+    }
+    
+    .boxes2_left img {
+        width: 100%;
     }
